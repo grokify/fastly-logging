@@ -14,7 +14,7 @@ The library seeks to provide two things:
 1. default JSON format definition builder
 1. Go struct for unmarshaling event JSON object
 
-[build-status-svg]: https://github.com/grokify/fastly-logging/workflows/go%20build/badge.svg
+[build-status-svg]: https://github.com/grokify/fastly-logging/workflows/test/badge.svg
  [build-status-url]: https://github.com/grokify/fastly-logging/actions
  [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/fastly-logging
  [goreport-url]: https://goreportcard.com/report/github.com/grokify/fastly-logging
