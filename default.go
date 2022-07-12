@@ -127,14 +127,18 @@ func EntryFormatDefault(fields ...string) (map[string]string, error) {
 	knownFieldsMap := KnownFieldsDefaultMap()
 	for _, field := range fields {
 		fieldCanonical := strings.ToLower(strings.TrimSpace(field))
+		if len(fieldCanonical) == 0 {
+			continue
+		}
 		if def, ok := knownFieldsMap[fieldCanonical]; ok {
 			format[fieldCanonical] = def
 		} else {
 			unknownFields = append(unknownFields, field)
 		}
 	}
+	unknownFields = stringsutil.SliceCondenseSpace(unknownFields, true, true)
 	if len(unknownFields) > 0 {
-		return format, fmt.Errorf("known fields [%s]", strings.Join(unknownFields, ", "))
+		return format, fmt.Errorf("known fields [%s]", strings.Join(unknownFields, ","))
 	}
 	return format, nil
 }
