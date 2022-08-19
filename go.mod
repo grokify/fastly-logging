@@ -2,7 +2,7 @@ module github.com/grokify/fastly-logging
 
 go 1.18
 
-require github.com/grokify/mogo v0.39.8
+require github.com/grokify/mogo v0.40.0
 
 require (
 	github.com/buger/jsonparser v1.1.1 // indirect
