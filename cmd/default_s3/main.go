@@ -16,7 +16,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmtutil.PrintJSON(format)
+	fmtutil.MustPrintJSON(format)
 }
 
 /*
