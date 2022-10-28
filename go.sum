@@ -1,7 +1,7 @@
 github.com/buger/jsonparser v1.1.1 h1:2PnMjfWD7wBILjqQbt530v576A/cAbQvEW9gGIpYMUs=
 github.com/buger/jsonparser v1.1.1/go.mod h1:6RYKKt7H4d4+iWqouImQ9R2FZql3VbhNgx27UK13J/0=
-github.com/grokify/mogo v0.40.4 h1:IDGRHgRj5eaCsl6na0++xLikRsAgTIpf0cTt49du7fY=
-github.com/grokify/mogo v0.40.4/go.mod h1:tBcnsGpXsAgHo2p5muSoisCNO+GBKPqJ8sW88TEqd3U=
+github.com/grokify/mogo v0.40.12 h1:JnjDmtD3B/LL+O83jwJpHuz0A40pCt/EkfPvj8AaLwM=
+github.com/grokify/mogo v0.40.12/go.mod h1:Ct1csXN2fVcWv+Ylvsy95wH4sPs9cWhRK8EXk9Avt8A=
 github.com/huandu/xstrings v1.3.2 h1:L18LIDzqlW6xN2rEkpdV8+oL/IXWJ1APd+vsdYy4Wdw=
 github.com/huandu/xstrings v1.3.2/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
 github.com/valyala/fastjson v1.6.3 h1:tAKFnnwmeMGPbwJ7IwxcTPCNr3uIzoIj3/Fh90ra4xc=
