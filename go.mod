@@ -2,10 +2,12 @@ module github.com/grokify/fastly-logging
 
 go 1.18
 
-require github.com/grokify/mogo v0.40.4
+require github.com/grokify/mogo v0.46.0
 
 require (
 	github.com/buger/jsonparser v1.1.1 // indirect
-	github.com/huandu/xstrings v1.3.2 // indirect
-	github.com/valyala/fastjson v1.6.3 // indirect
+	github.com/huandu/xstrings v1.4.0 // indirect
+	github.com/valyala/fastjson v1.6.4 // indirect
+	golang.org/x/exp v0.0.0-20230127193734-31bee513bff7 // indirect
+	golang.org/x/text v0.6.0 // indirect
 )
