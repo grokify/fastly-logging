@@ -1,6 +1,8 @@
 module github.com/grokify/fastly-logging
 
-go 1.18
+go 1.21
+
+// toolchain go1.21.1
 
 require github.com/grokify/mogo v0.60.0
 
